@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <EditText
+        android:id="@+id/edit_history"
+        style="@style/NormalInput"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        android:inputType="text"
+        android:textColor="@color/color_primary_dark" />
+
+    <EditText
+        android:id="@+id/edit_input"
+        style="@style/NormalInput"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        android:inputType="text" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_delete_all"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_red"
+                android:text="@string/key_delete_all"
+                android:textColor="@color/color_primary_dark" />
+
+            <Button
+                android:id="@+id/button_delete"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_orange"
+                android:text="@string/key_delete"
+                android:textColor="@color/color_primary_dark" />
+
+            <Button
+                android:id="@+id/button_result"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@color/color_accent"
+                android:text="@string/key_result"
+                android:textColor="@color/color_primary_dark" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_1"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_1" />
+
+            <Button
+                android:id="@+id/button_2"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_2" />
+
+            <Button
+                android:id="@+id/button_3"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_3" />
+
+            <Button
+                android:id="@+id/button_add"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_add" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_4"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_4" />
+
+            <Button
+                android:id="@+id/button_5"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_5" />
+
+            <Button
+                android:id="@+id/button_6"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_6" />
+
+            <Button
+                android:id="@+id/button_sub"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_sub" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_7"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_7" />
+
+            <Button
+                android:id="@+id/button_8"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_8" />
+
+            <Button
+                android:id="@+id/button_9"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_9" />
+
+            <Button
+                android:id="@+id/button_mul"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_mul" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_dot"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="@string/key_dot" />
+
+            <Button
+                android:id="@+id/button_0"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_0" />
+
+            <Button
+                android:id="@+id/button_div"
+                style="@style/NormalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/key_div" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
