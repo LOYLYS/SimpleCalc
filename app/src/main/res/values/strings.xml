@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Simple Calc</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_dot">.</string>
+    <string name="key_add">+</string>
+    <string name="key_sub">-</string>
+    <string name="key_mul">×</string>
+    <string name="key_div">÷</string>
+    <string name="key_delete">C</string>
+    <string name="key_delete_all">AC</string>
+    <string name="key_result">=</string>
+    <string name="msg_default_hint">Simple Calculator</string>
 </resources>
